@@ -1,0 +1,50 @@
+// Main
+.main {
+  padding: 80px 12px;
+  background-color: $main-bg-color;
+}
+
+// Button section
+.nav-item {
+  .btn {
+    background-color: $bg-ghost;
+
+    &:hover,
+    &.active {
+      background-color: $bg-hover;
+    }
+  }
+}
+
+.badge-color {
+  background-color: $bg-error;
+}
+
+.section-title {
+  width: 300px;
+}
+
+.record {
+  &-title {
+    color: $text-hover-primary;
+  }
+  &-subtitle {
+    font-size: 18px;
+    color: $text-slate-blue;
+  }
+}
+
+.panel-background {
+  background-color: $bg-ghost;
+}
+
+.contact-badge {
+  background-color: $bg-ghost;
+  color: $text-slate-blue;
+}
+
+tr {
+  &.finish td {
+    color: $text-finish;
+  }
+}

@@ -1,0 +1,30 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans TC", "Inter", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.02rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 0;
+}
+
+ul {
+  margin-bottom: 0;
+  li {
+    list-style: none;
+  }
+}
